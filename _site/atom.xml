@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
  <title>INSTRUCTION SET</title>
- <link href="https://generalassemb.ly/education/web-development-immersive#instructors/atom.xml" rel="self"/>
- <link href="https://generalassemb.ly/education/web-development-immersive#instructors/"/>
- <updated>2014-06-12T15:02:12-04:00</updated>
- <id>https://generalassemb.ly/education/web-development-immersive#instructors</id>
+ <link href="https://ga-instructors.github.io/atom.xml" rel="self"/>
+ <link href="https://ga-instructors.github.io/"/>
+ <updated>2014-06-12T15:21:30-04:00</updated>
+ <id>https://ga-instructors.github.io</id>
  <author>
    <name>GA Instructors</name>
    <email></email>
@@ -14,9 +14,9 @@
  
  <entry>
    <title>Hello World</title>
-   <link href="https://generalassemb.ly/education/web-development-immersive#instructors/2014/06/12/hello-world/"/>
+   <link href="https://ga-instructors.github.io/2014/06/12/hello-world/"/>
    <updated>2014-06-12T00:00:00-04:00</updated>
-   <id>https://generalassemb.ly/education/web-development-immersive#instructors/2014/06/12/hello-world</id>
+   <id>https://ga-instructors.github.io/2014/06/12/hello-world</id>
    <content type="html">&lt;p&gt;Let&amp;#39;s get started.&lt;/p&gt;
 </content>
  </entry>

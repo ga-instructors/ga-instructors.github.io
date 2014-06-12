@@ -9,7 +9,7 @@ permalink:        pretty
 title:            INSTRUCTION SET
 tagline:          'assembling new programmers'
 description:      'A blog by the instructors of <a href="https://generalassemb.ly/">General Assembly&apos;s</a> <a href="https://generalassemb.ly/education/web-development-immersive">Web Development Immersive</a>.'
-url:              "https://generalassemb.ly/education/web-development-immersive#instructors"
+url:              'https://ga-instructors.github.io'
 paginate:         5
 
 author:
@@ -23,4 +23,3 @@ github:
   repo:           https://github.com/ga-instructors
 
 source:           _source
-destination:      _site
