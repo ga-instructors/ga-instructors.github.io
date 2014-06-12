@@ -11,8 +11,6 @@ tagline:     'assembling new programmers'
 description: 'A blog by the instructors of <a href="https://generalassemb.ly/">General Assembly&apos;s</a> <a href="https://generalassemb.ly/education/web-development-immersive">Web Development Immersive</a>.'
 url:         'https://ga-instructors.github.io'
 paginate:    5
-source:      _source
-baseurl:     '_site/'
 
 author:
   name:      'GA Instructors'
