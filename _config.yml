@@ -1,11 +1,3 @@
-# Dependencies
-markdown:    redcarpet
-highlighter: pygments
-
-# Permalinks
-permalink:   pretty
-
-# Setup
 title:       'INSTRUCTION SET'
 tagline:     'assembling new programmers'
 description: 'A blog by the instructors of <a href="https://generalassemb.ly/">General Assembly&apos;s</a> <a href="https://generalassemb.ly/education/web-development-immersive">Web Development Immersive</a>.'
@@ -15,9 +7,22 @@ paginate:    5
 author:
   name:      'GA Instructors'
   url:       https://github.com/ga-instructors
+  avatar:
+  email:
 
-# Custom vars
+timezone:    America/New_York
+future:      true
+
+highlighter: pygments
+markdown:    kramdown
+permalink:   pretty
+
+kramdown:
+  input:     GFM
+
 version:     0.1.0
 
 github:
   repo:      https://github.com/ga-instructors
+
+exclude:     ['Gemfile', 'Gemfile.lock', 'Rakefile', 'README.md', 'LICENSE.txt', 'LICENSE-Lanyon.md']
