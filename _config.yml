@@ -1,25 +1,25 @@
 # Dependencies
-markdown:         redcarpet
-highlighter:      pygments
+markdown:    redcarpet
+highlighter: pygments
 
 # Permalinks
-permalink:        pretty
+permalink:   pretty
 
 # Setup
-title:            INSTRUCTION SET
-tagline:          'assembling new programmers'
-description:      'A blog by the instructors of <a href="https://generalassemb.ly/">General Assembly&apos;s</a> <a href="https://generalassemb.ly/education/web-development-immersive">Web Development Immersive</a>.'
-url:              'https://ga-instructors.github.io'
-paginate:         5
+title:       'INSTRUCTION SET'
+tagline:     'assembling new programmers'
+description: 'A blog by the instructors of <a href="https://generalassemb.ly/">General Assembly&apos;s</a> <a href="https://generalassemb.ly/education/web-development-immersive">Web Development Immersive</a>.'
+url:         'https://ga-instructors.github.io'
+paginate:    5
+source:      _source
+baseurl:     '_site/'
 
 author:
-  name:           'GA Instructors'
-  url:            https://github.com/ga-instructors
+  name:      'GA Instructors'
+  url:       https://github.com/ga-instructors
 
 # Custom vars
-version:          0.1.0
+version:     0.1.0
 
 github:
-  repo:           https://github.com/ga-instructors
-
-source:           _source
+  repo:      https://github.com/ga-instructors
