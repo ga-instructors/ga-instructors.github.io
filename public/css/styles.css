@@ -1,74 +1,68 @@
-$hack_url: 'http://blog.generalassemb.ly/blog/wp-content/themes/twentytwelve-child/fonts';
+/*                                 _
+ *  __ _  ___ _ __   ___ _ __ __ _| |
+ * / _` |/ _ \ '_ \ / _ \ '__/ _` | |
+ *| (_| |  __/ | | |  __/ | | (_| | |
+ * \__, |\___|_| |_|\___|_|  \__,_|_|
+ * |___/
+ *                              _     _             _         _
+ *  __ _ ___ ___  ___ _ __ ___ | |__ | |_   _   ___| |_ _   _| | ___
+ * / _` / __/ __|/ _ \ '_ ` _ \| '_ \| | | | | / __| __| | | | |/ _ \
+ *| (_| \__ \__ \  __/ | | | | | |_) | | |_| | \__ \ |_| |_| | |  __/
+ * \__,_|___/___/\___|_| |_| |_|_.__/|_|\__, | |___/\__|\__, |_|\___|
+ *                                      |___/           |___/
+ *
+ * Some sassy CSS to kind of put the junk 'on-brand.'
+ * Copyright (c) [2014], General Assembly.
+ */
 
 @font-face {
   font-family: 'PFDinTextCompProBold';
   font-weight: normal;
   font-style: normal;
-  src: url('#{$hack_url}/pfdintextcomppro-bold-webfont.eot');
-  src: url('#{$hack_url}/pfdintextcomppro-bold-webfont.eot?#iefix') format("embedded-opentype"),
-       url('#{$hack_url}/pfdintextcomppro-bold-webfont.woff') format("woff"),
-       url('#{$hack_url}/pfdintextcomppro-bold-webfont.ttf') format("truetype"),
-       url('#{$hack_url}/pfdintextcomppro-bold-webfont.svg#PFDinTextCompProBold') format("svg");
+  src: url('http://blog.generalassemb.ly/blog/wp-content/themes/twentytwelve-child/fonts/pfdintextcomppro-bold-webfont.eot');
+  src: url('http://blog.generalassemb.ly/blog/wp-content/themes/twentytwelve-child/fonts/pfdintextcomppro-bold-webfont.eot?#iefix') format("embedded-opentype"), url('http://blog.generalassemb.ly/blog/wp-content/themes/twentytwelve-child/fonts/pfdintextcomppro-bold-webfont.woff') format("woff"), url('http://blog.generalassemb.ly/blog/wp-content/themes/twentytwelve-child/fonts/pfdintextcomppro-bold-webfont.ttf') format("truetype"), url('http://blog.generalassemb.ly/blog/wp-content/themes/twentytwelve-child/fonts/pfdintextcomppro-bold-webfont.svg#PFDinTextCompProBold') format("svg");
 }
 @font-face {
   font-family: 'pf_din_text_comp_promedium';
   font-weight: normal;
   font-style: normal;
-  src: url('#{$hack_url}/pfdintextcomppro-medium-webfont.eot');
-  src: url('#{$hack_url}/pfdintextcomppro-medium-webfont.eot?#iefix') format("embedded-opentype"),
-       url('#{$hack_url}/pfdintextcomppro-medium-webfont.woff') format("woff"),
-       url('#{$hack_url}/pfdintextcomppro-medium-webfont.ttf') format("truetype"),
-       url('#{$hack_url}/pfdintextcomppro-medium-webfont.svg#pf_din_text_comp_promedium') format("svg");
+  src: url('http://blog.generalassemb.ly/blog/wp-content/themes/twentytwelve-child/fonts/pfdintextcomppro-medium-webfont.eot');
+  src: url('http://blog.generalassemb.ly/blog/wp-content/themes/twentytwelve-child/fonts/pfdintextcomppro-medium-webfont.eot?#iefix') format("embedded-opentype"), url('http://blog.generalassemb.ly/blog/wp-content/themes/twentytwelve-child/fonts/pfdintextcomppro-medium-webfont.woff') format("woff"), url('http://blog.generalassemb.ly/blog/wp-content/themes/twentytwelve-child/fonts/pfdintextcomppro-medium-webfont.ttf') format("truetype"), url('http://blog.generalassemb.ly/blog/wp-content/themes/twentytwelve-child/fonts/pfdintextcomppro-medium-webfont.svg#pf_din_text_comp_promedium') format("svg");
 }
 @font-face {
   font-family: 'PFDinTextCompProLight';
   font-weight: normal;
   font-style: normal;
-  src: url('#{$hack_url}/pfdintextcomppro-light-webfont.eot');
-  src: url('#{$hack_url}/pfdintextcomppro-light-webfont.eot?#iefix') format("embedded-opentype"),
-       url('#{$hack_url}/pfdintextcomppro-light-webfont.woff') format("woff"),
-       url('#{$hack_url}/pfdintextcomppro-light-webfont.ttf') format("truetype"),
-       url('#{$hack_url}/pfdintextcomppro-light-webfont.svg#PFDinTextCompProLight') format("svg");
+  src: url('http://blog.generalassemb.ly/blog/wp-content/themes/twentytwelve-child/fonts/pfdintextcomppro-light-webfont.eot');
+  src: url('http://blog.generalassemb.ly/blog/wp-content/themes/twentytwelve-child/fonts/pfdintextcomppro-light-webfont.eot?#iefix') format("embedded-opentype"), url('http://blog.generalassemb.ly/blog/wp-content/themes/twentytwelve-child/fonts/pfdintextcomppro-light-webfont.woff') format("woff"), url('http://blog.generalassemb.ly/blog/wp-content/themes/twentytwelve-child/fonts/pfdintextcomppro-light-webfont.ttf') format("truetype"), url('http://blog.generalassemb.ly/blog/wp-content/themes/twentytwelve-child/fonts/pfdintextcomppro-light-webfont.svg#PFDinTextCompProLight') format("svg");
 }
 @font-face {
   font-family: 'News706BT-RomanC';
   font-weight: normal;
   font-style: normal;
-  src: url('#{$hack_url}/232ED5_0_0.eot');
-  src: url('#{$hack_url}/232ED5_0_0.eot?#iefix') format("embedded-opentype"),
-       url('#{$hack_url}/232ED5_0_0.woff') format("woff"),
-       url('#{$hack_url}/232ED5_0_0.ttf') format("truetype"),
-       url('#{$hack_url}/232ED5_0_0.svg#wf') format("svg");
+  src: url('http://blog.generalassemb.ly/blog/wp-content/themes/twentytwelve-child/fonts/232ED5_0_0.eot');
+  src: url('http://blog.generalassemb.ly/blog/wp-content/themes/twentytwelve-child/fonts/232ED5_0_0.eot?#iefix') format("embedded-opentype"), url('http://blog.generalassemb.ly/blog/wp-content/themes/twentytwelve-child/fonts/232ED5_0_0.woff') format("woff"), url('http://blog.generalassemb.ly/blog/wp-content/themes/twentytwelve-child/fonts/232ED5_0_0.ttf') format("truetype"), url('http://blog.generalassemb.ly/blog/wp-content/themes/twentytwelve-child/fonts/232ED5_0_0.svg#wf') format("svg");
 }
 @font-face {
   font-family: 'News706BT-ItalicC';
   font-weight: normal;
   font-style: normal;
-  src: url('#{$hack_url}/232ED5_1_0.eot');
-  src: url('#{$hack_url}/232ED5_1_0.eot?#iefix') format("embedded-opentype"),
-       url('#{$hack_url}/232ED5_1_0.woff') format("woff"),
-       url('#{$hack_url}/232ED5_1_0.ttf') format("truetype"),
-       url('#{$hack_url}/232ED5_1_0.svg#wf') format("svg");
+  src: url('http://blog.generalassemb.ly/blog/wp-content/themes/twentytwelve-child/fonts/232ED5_1_0.eot');
+  src: url('http://blog.generalassemb.ly/blog/wp-content/themes/twentytwelve-child/fonts/232ED5_1_0.eot?#iefix') format("embedded-opentype"), url('http://blog.generalassemb.ly/blog/wp-content/themes/twentytwelve-child/fonts/232ED5_1_0.woff') format("woff"), url('http://blog.generalassemb.ly/blog/wp-content/themes/twentytwelve-child/fonts/232ED5_1_0.ttf') format("truetype"), url('http://blog.generalassemb.ly/blog/wp-content/themes/twentytwelve-child/fonts/232ED5_1_0.svg#wf') format("svg");
 }
 @font-face {
   font-family: 'News706BT-BoldC';
   font-weight: normal;
   font-style: normal;
-  src: url('#{$hack_url}/232ED5_2_0.eot');
-  src: url('#{$hack_url}/232ED5_2_0.eot?#iefix') format("embedded-opentype"),
-       url('#{$hack_url}/232ED5_2_0.woff') format("woff"),
-       url('#{$hack_url}/232ED5_2_0.ttf') format("truetype"),
-       url('#{$hack_url}/232ED5_2_0.svg#wf') format("svg");
+  src: url('http://blog.generalassemb.ly/blog/wp-content/themes/twentytwelve-child/fonts/232ED5_2_0.eot');
+  src: url('http://blog.generalassemb.ly/blog/wp-content/themes/twentytwelve-child/fonts/232ED5_2_0.eot?#iefix') format("embedded-opentype"), url('http://blog.generalassemb.ly/blog/wp-content/themes/twentytwelve-child/fonts/232ED5_2_0.woff') format("woff"), url('http://blog.generalassemb.ly/blog/wp-content/themes/twentytwelve-child/fonts/232ED5_2_0.ttf') format("truetype"), url('http://blog.generalassemb.ly/blog/wp-content/themes/twentytwelve-child/fonts/232ED5_2_0.svg#wf') format("svg");
 }
 @font-face {
   font-family: 'InconsolataMedium';
   font-weight: normal;
   font-style: normal;
-  src: url('#{$hack_url}/inconsolata-webfont.eot');
-  src: url('#{$hack_url}/inconsolata-webfont.eot?#iefix') format("embedded-opentype"),
-       url('#{$hack_url}/inconsolata-webfont.woff') format("woff"),
-       url('#{$hack_url}/inconsolata-webfont.ttf') format("truetype"),
-       url('#{$hack_url}/inconsolata-webfont.svg#InconsolataMedium') format("svg");
+  src: url('http://blog.generalassemb.ly/blog/wp-content/themes/twentytwelve-child/fonts/inconsolata-webfont.eot');
+  src: url('http://blog.generalassemb.ly/blog/wp-content/themes/twentytwelve-child/fonts/inconsolata-webfont.eot?#iefix') format("embedded-opentype"), url('http://blog.generalassemb.ly/blog/wp-content/themes/twentytwelve-child/fonts/inconsolata-webfont.woff') format("woff"), url('http://blog.generalassemb.ly/blog/wp-content/themes/twentytwelve-child/fonts/inconsolata-webfont.ttf') format("truetype"), url('http://blog.generalassemb.ly/blog/wp-content/themes/twentytwelve-child/fonts/inconsolata-webfont.svg#InconsolataMedium') format("svg");
 }
 
 /*
@@ -353,8 +347,8 @@ fieldset div.question-group:nth-child(1) {
   font-family: 'iconic';
   font-weight: normal;
   font-style: normal;
-  src: url('#{$hack_url}/iconic.eot');
-  src: url('#{$hack_url}/iconic.eot?#iefix') format("embedded-opentype"), url('#{$hack_url}/iconic.svg#iconic') format("svg"), url('#{$hack_url}/iconic.woff') format("woff"), url('#{$hack_url}/iconic.ttf') format("truetype");
+  src: url('http://blog.generalassemb.ly/blog/wp-content/themes/twentytwelve-child/fonts/iconic.eot');
+  src: url('http://blog.generalassemb.ly/blog/wp-content/themes/twentytwelve-child/fonts/iconic.eot?#iefix') format("embedded-opentype"), url('http://blog.generalassemb.ly/blog/wp-content/themes/twentytwelve-child/fonts/iconic.svg#iconic') format("svg"), url('http://blog.generalassemb.ly/blog/wp-content/themes/twentytwelve-child/fonts/iconic.woff') format("woff"), url('http://blog.generalassemb.ly/blog/wp-content/themes/twentytwelve-child/fonts/iconic.ttf') format("truetype");
 }
 [data-icon]:before {
   font-family: 'iconic';
@@ -429,8 +423,8 @@ fieldset div.question-group:nth-child(1) {
   font-family: 'topics';
   font-weight: normal;
   font-style: normal;
-  src: url('#{$hack_url}/topics.eot');
-  src: url('#{$hack_url}/topics.eot?#iefix') format("embedded-opentype"), url('#{$hack_url}/topics.woff') format("woff"), url('#{$hack_url}/topics.ttf') format("truetype"), url('#{$hack_url}/topics.svg#topics') format("svg");
+  src: url('http://blog.generalassemb.ly/blog/wp-content/themes/twentytwelve-child/fonts/topics.eot');
+  src: url('http://blog.generalassemb.ly/blog/wp-content/themes/twentytwelve-child/fonts/topics.eot?#iefix') format("embedded-opentype"), url('http://blog.generalassemb.ly/blog/wp-content/themes/twentytwelve-child/fonts/topics.woff') format("woff"), url('http://blog.generalassemb.ly/blog/wp-content/themes/twentytwelve-child/fonts/topics.ttf') format("truetype"), url('http://blog.generalassemb.ly/blog/wp-content/themes/twentytwelve-child/fonts/topics.svg#topics') format("svg");
 }
 [data-icon]:before {
   font-family: 'topics';

@@ -2,11 +2,11 @@
 task :default => [:build, :serve]
 
 task :build do
-  `jekyll build`
+  puts `jekyll build`
 end
 
 task :serve do
-  `bundle exec jekyll serve`
+  puts `bundle exec jekyll serve`
 end
 
 task :post, :name do |t, args|
