@@ -65,36 +65,8 @@
   src: url('http://blog.generalassemb.ly/blog/wp-content/themes/twentytwelve-child/fonts/inconsolata-webfont.eot?#iefix') format("embedded-opentype"), url('http://blog.generalassemb.ly/blog/wp-content/themes/twentytwelve-child/fonts/inconsolata-webfont.woff') format("woff"), url('http://blog.generalassemb.ly/blog/wp-content/themes/twentytwelve-child/fonts/inconsolata-webfont.ttf') format("truetype"), url('http://blog.generalassemb.ly/blog/wp-content/themes/twentytwelve-child/fonts/inconsolata-webfont.svg#InconsolataMedium') format("svg");
 }
 
-/*
-.image-wrapper img {
-  width: 100%;
-  display: block;
-}
-.max-width {
-  max-width: 62rem;
-  margin: auto;
-  position: relative;
-}
-.has-padding {
-  padding-left: 1rem;
-  padding-right: 1rem;
-}
-html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  outline: 0;
-  font-size: 100%;
-  vertical-align: baseline;
-  background: transparent;
-}
-* {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-}
-article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
-  display: block;
+}html {
+  background: #222;
 }
 body {
   font-family: "News706BT-RomanC", Georgia;
@@ -104,13 +76,6 @@ body {
   margin: 0 auto;
   background: #fff;
   position: relative;
-}
-@media screen and (min-width: 835px) {
-  body {
-  padding-top: 3.5em;
-}
-}html {
-  background: #222;
 }
 ul {
   list-style: square;
@@ -162,13 +127,12 @@ a {
 }
 a:hover {
   cursor: pointer;
-}
-p>a, span>a, li>a {
   text-decoration: none;
-  border-bottom: 1px solid;
+  transition: 0.25s;
 }
-p>a:hover, span>a:hover, li>a:hover {
+a:hover {
   color: #f03;
+  transition: 0.25s;
 }
 nav ul {
   list-style: none;
@@ -176,6 +140,67 @@ nav ul {
 form {
   margin: 0;
 }
+.masthead {
+  padding: 1em 4.6875%;
+  background: #000;
+}
+
+/* override lanyon's sidebar-toggle classes*/
+.sidebar-toggle {
+  color: #fff;
+  background-color: #000;
+  transition: 0.25s;
+}
+.sidebar-toggle:hover {
+  color: #f03;
+  transition: 0.25s;
+}
+.sidebar-toggle:active,
+#sidebar-checkbox:checked ~ .sidebar-toggle {
+  color: #f03;
+  background-color: #000;
+  transition: 0.25s;
+}
+
+/*
+.image-wrapper img {
+  width: 100%;
+  display: block;
+}
+.max-width {
+  max-width: 62rem;
+  margin: auto;
+  position: relative;
+}
+.has-padding {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+@media screen and (min-width: 835px) {
+  body {
+  padding-top: 3.5em;
+}
+
+
+
 label {
   display: block;
   margin-bottom: 0.25rem;
@@ -713,36 +738,7 @@ p.medium {
 .column .grid-row.has-padding .column:last-of-type {
   padding-right: 0;
 }
-.masthead {
-  padding: 1em 4.6875%;
-  background: #000;
-}
-.masthead img {
-  width: 14em;
-  margin-top: 0.25em;
-}
-.masthead a.skip {
-  float: right;
-  display: block;
-}
-.masthead a.skip img {
-  width: 1.7em;
-}
-@media screen and (min-width: 835px) {
-  .masthead {
-  top: 0;
-  padding: 0 1rem;
-  position: absolute;
-  z-index: 888;
-  width: 100%;
-  height: 3.5rem;
-}
-.masthead img {
-  margin: 1em 0 0.5em;
-}
-.masthead a.skip {
-  display: none;
-}
+
 }.main-nav {
   font-family: "pf_din_text_comp_promedium", Impact, Arial;
   text-transform: uppercase;
