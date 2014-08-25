@@ -65,7 +65,7 @@
   src: url('http://blog.generalassemb.ly/blog/wp-content/themes/twentytwelve-child/fonts/inconsolata-webfont.eot?#iefix') format("embedded-opentype"), url('http://blog.generalassemb.ly/blog/wp-content/themes/twentytwelve-child/fonts/inconsolata-webfont.woff') format("woff"), url('http://blog.generalassemb.ly/blog/wp-content/themes/twentytwelve-child/fonts/inconsolata-webfont.ttf') format("truetype"), url('http://blog.generalassemb.ly/blog/wp-content/themes/twentytwelve-child/fonts/inconsolata-webfont.svg#InconsolataMedium') format("svg");
 }
 
-}html {
+html {
   background: #222;
 }
 body {
@@ -109,9 +109,10 @@ h1 {
 }
 @media screen and (min-width: 720px) {
   h1 {
-  font-size: 4rem;
+    font-size: 4rem;
+  }
 }
-}h2 {
+h2 {
   font-size: 2.25rem;
 }
 h3 {
